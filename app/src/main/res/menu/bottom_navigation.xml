@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="home"
+    <item android:id="@+id/home"
         android:title="Home"
         android:icon="@drawable/home_selector"></item>
 
-    <item android:id="chat"
+    <item android:id="@+id/chat"
         android:title="Chat"
         android:icon="@drawable/chat_selector"></item>
 
-    <item android:id="community"
+    <item android:id="@+id/community"
         android:title="Community"
         android:icon="@drawable/community_selector"></item>
 
-    <item android:id="crops"
+    <item android:id="@+id/crops"
         android:title="Crops"
         android:icon="@drawable/crops_selector"></item>
 

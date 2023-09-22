@@ -13,8 +13,20 @@
         android:theme="@style/Theme.PlantMed"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.BellActivity"
             android:exported="false" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
