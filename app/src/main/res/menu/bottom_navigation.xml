@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="home"
+        android:title="Home"
+        android:icon="@drawable/home_selector"></item>
+
+    <item android:id="chat"
+        android:title="Chat"
+        android:icon="@drawable/chat_selector"></item>
+
+    <item android:id="community"
+        android:title="Community"
+        android:icon="@drawable/community_selector"></item>
+
+    <item android:id="crops"
+        android:title="Crops"
+        android:icon="@drawable/crops_selector"></item>
+
+</menu>
