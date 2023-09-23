@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (id == R.id.home)
                 {
-                    loadFragment(new HomeFragment(), 0);
+                    loadFragment(new HomeFragment(), 1);
                 } else if (id == R.id.chat) {
                     loadFragment(new ChatFragment(),1);
                 } else if (id == R.id.community) {
@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+        bottom_navigation.setSelectedItemId(R.id.home);
 
 
 
