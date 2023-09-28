@@ -5,6 +5,6 @@
         android:drawable="@drawable/community"></item>
 
     <item android:state_checked="true"
-        android:drawable="@drawable/communtiy_fill"></item>
+        android:drawable="@drawable/community_fill"></item>
 
 </selector>

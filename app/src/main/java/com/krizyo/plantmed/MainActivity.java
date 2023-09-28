@@ -7,10 +7,15 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.QuickContactBadge;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.krizyo.plantmed.activity.SignupActivity;
 import com.krizyo.plantmed.fragment.ChatFragment;
 import com.krizyo.plantmed.fragment.CommunityFragment;
 import com.krizyo.plantmed.fragment.CropsFragment;
@@ -20,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     Toolbar toolbar;
     BottomNavigationView bottom_navigation;
+    ImageView iv_profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         /*define id*/
         toolbar = findViewById(R.id.toolbar);
         bottom_navigation=findViewById(R.id.bottom_navigation);
+        iv_profile=findViewById(R.id.iv_profile);
 
         /* Its needed to access toolbar or to work on it*/
         setSupportActionBar(toolbar);
@@ -57,6 +64,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         bottom_navigation.setSelectedItemId(R.id.home);
+
+        iv_profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, SignupActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
 
