@@ -50,16 +50,16 @@ public class HomeFragment extends Fragment
 
         /*array list for recyclerview*/
         ArrayList<MarketPriceModel> list=new ArrayList<>();
-        list.add(new MarketPriceModel("Bringal","Bhavnager","Rs 900/Q"));
-        list.add(new MarketPriceModel("Ginger","Bhavnager","Rs 9000/Q"));
-        list.add(new MarketPriceModel("Chille","Bhavnager","Rs 2000/Q"));
-        list.add(new MarketPriceModel("Beetroot","Bhavnager","Rs 1300/Q"));
+        list.add(new MarketPriceModel("Bringal","Bhavnagar","Rs 900/Q"));
+        list.add(new MarketPriceModel("Ginger","Bhavnagar","Rs 9000/Q"));
+        list.add(new MarketPriceModel("Chille","Bhavnagar","Rs 2000/Q"));
+        list.add(new MarketPriceModel("Beetroot","Bhavnagar","Rs 1300/Q"));
 
         ArrayList<MixedModel> news_list=new ArrayList<>();
         news_list.add(new MixedModel("Madhya Pradesh: Crops destroyed by dry August and excess September rain","27/09/2023",R.drawable.news1));
         news_list.add(new MixedModel("Govt aims 60% of wheat area under climate resilient varieties in rabi season amid El Nino fear","27/09/2023",R.drawable.news2));
-        news_list.add(new MixedModel("Demo Title","23/09/2023",R.drawable.news1));
-        news_list.add(new MixedModel("Demo Title","23/09/2023",R.drawable.news1));
+        news_list.add(new MixedModel("Madhya Pradesh: Crops destroyed by dry August and excess September rain","23/09/2023",R.drawable.news1));
+        news_list.add(new MixedModel("Madhya Pradesh: Crops destroyed by dry August and excess September rain","23/09/2023",R.drawable.news1));
 
         ArrayList<MixedModel> blogs_list=new ArrayList<>();
         blogs_list.add(new MixedModel("Demo Title","27/09/2023",R.drawable.blog1));
